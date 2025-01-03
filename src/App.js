@@ -24,6 +24,11 @@ function App() {
         <AboutMe />
       </div>
 
+      {/* <div>
+        <Contact />
+      </div> */}
+
+
 
 
     </div>

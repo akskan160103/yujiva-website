@@ -1,12 +1,4 @@
 /* Home Section Styles */
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: var(--color-off-white); /* Off-white */
-  }
-  
   .home-container {
     display: flex;
     flex-direction: row;

@@ -13,38 +13,32 @@ const AboutMe = () => {
 
         {/* Right: Content */}
         <div className="about-content">
-          <h1>PERSONAL PROFILE</h1>
-          <p>
-            Completed the 200 Hours TTC from The Yoga Institute (
-            <a href="https://theyogainstitute.org/" target="_blank" rel="noopener noreferrer">
-              https://theyogainstitute.org/
-            </a>
-            ), Mumbai in December 2021 from Dubai. A banker by profession for over 20 years, the
-            calling for yoga led me to complete this rigorous course. Am keen to work with children
-            especially teenage girls and in this pursuit have been fortunate to be connected with
-            Love to care foundation based in Bangalore and teaching the girls in the orphanage once
-            a week. (online)
-          </p>
-          <h2>PURPOSE</h2>
-          <ul>
-            <li>Am passionate about sharing my knowledge in yoga to the world.</li>
-          </ul>
-          <h2>TEACHING EXPERIENCE</h2>
-          <ul>
-            <li>Started my yoga classes in Bur Dubai since August 2022 under the name Yujiva.</li>
-            <li>
-              Assisted Ms. Sneha in the 200 hours TTC concluded in May 2022, by The Yoga Institute,
-              in Dubai.
-            </li>
-            <li>Conducted various community yoga classes in Dubai Hills and Nilaya House.</li>
-            <li>Conducted Corporate wellness program for The American Hospital Dubai.</li>
-          </ul>
-          <h2>EDUCATION BACKGROUND</h2>
-          <ul>
-            <li>Completed my Bachelors in Commerce from The Mumbai University, Mumbai, India.</li>
-            <li>Completed PGDBF program from ICFAI, Hyderabad.</li>
-          </ul>
-        </div>
+  <h1>ABOUT ME</h1>
+  <p>
+    A vivid yoga practitioner for many years, her passion and longing led her to pursue the Teachers Training while she was still pursuing her full-time corporate job as a banker.
+  </p>
+
+  <h2>LEARNING JOURNEY</h2>
+  <p>
+    Geetha now has a rich learning experience of 800 hours of training from the reputed yoga school in India, The Yoga Institute Santacruz, Mumbai.
+  </p>
+
+  <h2>QUALIFICATIONS</h2>
+  <p>
+    She is also a qualified yoga therapist certified by the Ministry of Ayush, Government of India.
+  </p>
+
+  <h2>TEACHING PHILOSOPHY</h2>
+  <p>
+    What she teaches is a reflection of what Yoga has taught her – To be Love. Love that teaches to respect one and all, one's own body, to live the moment, and enjoy it to the fullest.
+  </p>
+
+  <h2>FINAL THOUGHT</h2>
+  <blockquote>
+    "Yoga is an inward journey of transformation, and I am excited to share my knowledge."
+  </blockquote>
+</div>
+
       </div>
     </section>
   );
