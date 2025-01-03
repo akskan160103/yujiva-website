@@ -3,8 +3,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #E25822; /* Rust */
-    color: #F4EBD0; /* Off-white */
+    background-color: var(--color-rust);
+    color: var(--color-off-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,14 +19,14 @@
   }
   
   .nav-link {
-    color: #F4EBD0; /* Off-white */
+    color: var(--color-off-white); 
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
   }
   
   .nav-link:hover {
-    color: #F1A208; /* Yellow */
+    color: var(--color-yellow);
     text-decoration: underline;
   }
   

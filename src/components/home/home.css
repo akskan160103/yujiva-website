@@ -1,0 +1,44 @@
+/* Home Section Styles */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height: 100vh;
+    background-color: var(--color-off-white) /* Off-white */
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Logo Section */
+  .home-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Description Section */
+  .home-description {
+    flex: 1;
+  }
+  
+  .home-description h1 {
+    color: var(--color-rust); /* Rust */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-description p {
+    color: var(--color-black); 
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
