@@ -4,8 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    height: 100vh;
-    background-color: var(--color-off-white) /* Off-white */
+    background-color: var(--color-off-white); /* Off-white */
   }
   
   .home-container {
