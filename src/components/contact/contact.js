@@ -17,7 +17,7 @@ function ContactMe() {
         <div className="contact-item">
           <ion-icon name="logo-whatsapp" className='contact-icon'></ion-icon>
           <h2>WhatsApp</h2>
-            <a href="https://wa.me/971509843739" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/971586331325" target="_blank" rel="noopener noreferrer">
               Send me a WhatsApp message
             </a>
         </div>
