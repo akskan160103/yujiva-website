@@ -32,7 +32,7 @@ function ContactMe() {
             </a>
         </div>   
       </div>
-    </section>
+    </section> 
   );
 }
 
