@@ -7,8 +7,11 @@
 
 section {
     padding: 0 2rem; /* Add uniform padding inside on both sides */
-    background-color: var(--color-off-white); /* Off-white background for all sections */
   }
+body{
+  background-color: var(--color-off-white); /* Off-white background for all sections */
+
+}
 h1, h2{
   margin-top: 0rem;
   margin-bottom: 1rem;
@@ -32,6 +35,10 @@ font-size: 1.5rem; /* Match font size with previous section */
 font-weight: bold; /* Bold for sub-sections */
 }
 
+/* Ensure sections have enough padding when scrolled into view */
+section {
+  scroll-margin-top: 80px; /* Adjust based on your header height */
+}
 
   
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'components/home/home.css';
-import logo from 'images/Yujiva 1.png'; 
+import logo from 'images/Yujiva12.png'; 
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         
         {/* Description */}
         <div className="home-description">
-          <h1>What is Yujiva?</h1>
+        <h1>What is Yujiva?</h1>
           <p>
             Yujiva is inspired by the Sanskrit word "Yuj," which means "to unite" or "to join."
             This reflects the essence of yoga and the mission of this venture: to bring people closer to mindfulness, physical well-being, and inner peace.

@@ -1,12 +1,17 @@
 /* Home Section Styles */
-  .home-container {
+  
+.home{
+  padding-top: 80px;
+}
+
+.home-container {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-
   }
+
   
   /* Logo Section */
   .home-logo img {
@@ -23,6 +28,9 @@
   .home-description p{
     text-align: left;
   }
+
+
+
  
   /* Media Query: Adjust for smaller screens */
 @media (max-width: 1100px) {
@@ -36,7 +44,6 @@
   .home-container {
     flex-direction: column; /* Stack elements vertically */
     gap: 1.5rem; /* Reduce gap between elements */
-    width: 90%; /* Adjust container width */
     gap: 0rem;
   }
 
@@ -51,7 +58,6 @@
 
 @media (max-width: 480px) {
   .home-container {
-    width: 90%;
     gap: 1rem; /* Narrow gap */
   }
 
