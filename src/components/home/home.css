@@ -5,8 +5,7 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    max-width: 1200px;
+
   }
   
   /* Logo Section */
@@ -20,16 +19,48 @@
   .home-description {
     flex: 1;
   }
-  
+
+  .home-description p{
+    text-align: left;
+  }
+ 
+  /* Media Query: Adjust for smaller screens */
+@media (max-width: 1100px) {
+  .home-container {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 0rem;
+  }
+
+}
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1.5rem; /* Reduce gap between elements */
+    width: 90%; /* Adjust container width */
+    gap: 0rem;
+  }
+
   .home-description h1 {
-    color: var(--color-rust); /* Rust */
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem; /* Smaller heading font size */
   }
-  
+
   .home-description p {
-    color: var(--color-black); 
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: 1rem; /* Smaller paragraph font size */
   }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    width: 90%;
+    gap: 1rem; /* Narrow gap */
+  }
+
+  .home-description h1 {
+    font-size: 1.8rem; /* Further reduce heading size */
+  }
+
+  .home-description p {
+    font-size: 0.9rem; /* Further reduce paragraph size */
+  }
+}
   

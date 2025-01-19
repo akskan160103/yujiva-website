@@ -1,58 +1,75 @@
+.about-container {
+  display: flex; /* Flex container for image and content */
+  flex-direction: row; /* Side-by-side layout */
+  gap: 2rem; /* Space between image and content */
+  width: 100%; /* Ensure it stretches fully */
+  margin: 0 auto; /* Center the container */
+}
 
-  .about-container {
-    display: flex; /* Flex container for image and content */
-    flex-direction: row; /* Side-by-side layout */
-    gap: 2rem; /* Space between image and content */
-    max-width: 1200px; /* Constrain the total width */
-    width: 100%; /* Ensure it stretches fully */
-    margin: 0 auto; /* Center the container */
-  }
-  
-  .about-image img {
-    max-width: 100%; /* Let the image scale naturally with its container */
-    width: 350px; /* Default width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Crop the image without distortion */
-    border-radius: 10px; /* Optional: Rounded corners */
-  }
-  
+.about h2{
+  margin-top: 1rem;
+}
+
+.about-image img {
+  max-width: 100%; /* Let the image scale naturally with its container */
+  width: 350px; /* Default width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the image without distortion */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
 /* About Me Section Content */
 .about-content {
   flex: 1; /* Ensure content takes remaining space */
   text-align: left; /* Align text to the left */
 }
 
-.about-content h1 {
-  color: var(--color-rust); /* Rust color for main title */
-  font-size: 2rem; /* Font size for main title */
-  margin-bottom: 1rem;
-}
-
-.about-content h2 {
-  color: var(--color-rust); /* Rust color for sub-sections */
-  font-size: 2rem; /* Match font size with previous section */
-  font-weight: bold; /* Bold for sub-sections */
-  margin-top: 1.5rem; /* Space above sub-section */
-  margin-bottom: 1rem; /* Space below sub-section */
-}
-
-.about-content p,
-.about-content ul {
-  font-size: 1rem; /* Font size matching the previous section */
-  line-height: 1.6; /* Consistent line height */
-  color: #333; /* Neutral text color */
-}
-
-.about-content ul li {
-  margin-bottom: 0.5rem; /* Space between list items */
-}
 
 
-  /* Add a media query for smaller screens */
-@media (max-width: 768px) {
-    .about-image img {
-      width: 100%; /* Full width for smaller screens */
-      max-width: none; /* Remove the default constraint */
-    }
+
+/* Media Query: Adjust for smaller screens */
+@media (max-width: 1100px) {
+  .about-container {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 0rem;
   }
+
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1.5rem; /* Reduce gap between elements */
+    width: 90%; /* Adjust container width */
+    gap: 0rem;
+  }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem; /* Smaller paragraph font size */
+  }
+}
+
+
+@media (max-width: 480px) {
+  .about-container {
+    width: 90%;
+    gap: 1rem; /* Narrow gap */
+  }
+
+  .about h1 {
+    font-size: 1.8rem; /* Further reduce heading size */
+  }
+
+  .about p {
+    font-size: 0.9rem; /* Further reduce paragraph size */
+  }
+}
   
+
+
+
+
+

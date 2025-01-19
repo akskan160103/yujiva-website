@@ -1,0 +1,78 @@
+/* Contact Section Styles */
+.contact {
+    text-align: center; /* Center align text */
+    padding: 2rem; /* Add padding around the section */
+    background-color: var(--color-off-white); /* Background color */
+  }
+  
+  .contact h1, h2 {
+    color: var(--color-rust); /* Rust color for heading */
+  }
+  
+  .contact-container {
+    display: flex; /* Horizontal flex container */
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    gap: 2rem; /* Space between items */
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  }
+  
+  .contact-item {
+    display: flex; /* Flex container for icon and text */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    gap: 1rem; /* Space between icon and text */
+    text-align: center; /* Center align text */
+  }
+  
+  .contact-icon {
+    color: var(--color-rust);
+    font-size: 75px;
+  }
+   
+  .contact-item a {
+    color: var(--color-yellow); /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .contact h2 {
+    margin-bottom: 0rem;
+  }
+
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .contact-container{
+      gap: 1.5rem;
+
+    }
+    .contact-icon{
+      font-size: 65px;
+    }
+  }
+  @media (max-width: 710px) {
+    .contact-container{
+      flex-direction: column;
+    }
+    .contact-icon{
+      font-size: 75px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .contact h1{
+      font-size: 1.8rem;
+    }
+
+  }
+  
+
+
+
+
+
+  

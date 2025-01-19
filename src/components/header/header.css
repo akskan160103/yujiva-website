@@ -29,4 +29,19 @@
     color: var(--color-yellow);
     text-decoration: underline;
   }
+
+  /* Media Query: Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 1rem; /* Slightly smaller font size for tablets and phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 0.8rem; /* Even smaller font size for very small phones */
+  }
+}
+
+
   

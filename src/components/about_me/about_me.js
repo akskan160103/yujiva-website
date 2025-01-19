@@ -5,39 +5,32 @@ import profilePicture from 'images/about_me.jpeg';
 const AboutMe = () => {
   return (
     <section id="about" className="about">
+      <h1>About Me</h1>
       <div className="about-container">
         {/* Left: Profile Picture */}
         <div className="about-image">
           <img src={profilePicture} alt="Profile" />
         </div>
-
         {/* Right: Content */}
         <div className="about-content">
-  <h1>ABOUT ME</h1>
-  <p>
-    A vivid yoga practitioner for many years, her passion and longing led her to pursue the Teachers Training while she was still pursuing her full-time corporate job as a banker.
-  </p>
+          <p>
+          I have been a passionate yoga practitioner for many years. My deep connection with yoga and a longing to explore it further inspired me to pursue a Teacher Training program while I was still navigating a full-time corporate career as a banker.
+          </p>
 
-  <h2>LEARNING JOURNEY</h2>
-  <p>
-    Geetha now has a rich learning experience of 800 hours of training from the reputed yoga school in India, The Yoga Institute Santacruz, Mumbai.
-  </p>
+          <h2>My Journey</h2>
+          <p>
+          With over 800 hours of training from the renowned Yoga Institute in Santacruz, Mumbai, I have gained a rich and transformative learning experience. This journey has deepened not only my practice but also my understanding of yoga as a way of life.
+          </p>
 
-  <h2>QUALIFICATIONS</h2>
-  <p>
-    She is also a qualified yoga therapist certified by the Ministry of Ayush, Government of India.
-  </p>
+          <h2>My Philosophy</h2>
+          <p>
+          I believe yoga is more than just a physical practice—it's a journey inward. Yoga has taught me to embrace love in all its forms: love for oneself, for others, and for the moment we are in. It has shown me the beauty of respecting my body and living life with mindfulness and joy.
+          </p>
+          <h2>My Vision</h2>
+          <p>
+          As a certified yoga therapist recognized by the Ministry of Ayush, Government of India, I aim to share yoga's transformative power with others. Whether it’s through guiding mindful movements, offering therapeutic support, or simply creating a space of calm, my teaching reflects the love and growth that yoga has brought into my own life.          </p>
 
-  <h2>TEACHING PHILOSOPHY</h2>
-  <p>
-    What she teaches is a reflection of what Yoga has taught her – To be Love. Love that teaches to respect one and all, one's own body, to live the moment, and enjoy it to the fullest.
-  </p>
-
-  <h2>FINAL THOUGHT</h2>
-  <blockquote>
-    "Yoga is an inward journey of transformation, and I am excited to share my knowledge."
-  </blockquote>
-</div>
+        </div>
 
       </div>
     </section>

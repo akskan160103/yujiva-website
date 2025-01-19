@@ -1,0 +1,48 @@
+/* Offerings Section */
+.offerings {
+    text-align: center; /* Center align text */
+  }
+
+  .offerings-container {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    align-items: center; /* Center align the rows */
+    gap: 2rem;
+  }
+  
+  .offerings-row {
+    display: flex;
+    gap: 7rem;
+    justify-content: space-between;
+  }
+  
+  .offerings-item {
+    display: flex;
+    flex-direction: column; /* Stack image and title vertically */
+    align-items: center; /* Center align the content */
+    text-align: center; /* Center align text */
+    gap: 1rem; /* Space between image and title */
+    max-width: 200px; /* Constrain the width of each item */
+  }
+
+  .offerings-item img {
+    width: 200px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+  }
+   
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .offerings-row {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  }
+  @media (max-width: 480px) {
+    .offerings h1{
+      font-size: 1.8rem;
+    }
+
+  }
+  
+  

@@ -5,7 +5,8 @@ import './App.css';
 import Header from 'components/header/header';
 import Home from 'components/home/home';
 import AboutMe from 'components/about_me/about_me';
-
+import Offerings from 'components/offerings/offerings';
+import Contact from 'components/contact/contact';
 
 function App() {
   return (
@@ -24,9 +25,13 @@ function App() {
         <AboutMe />
       </div>
 
-      {/* <div>
+      <div>
+        <Offerings /> 
+      </div>
+
+      <div>
         <Contact />
-      </div> */}
+      </div>
 
 
 
