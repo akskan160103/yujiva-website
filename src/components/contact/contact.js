@@ -10,7 +10,7 @@ function ContactMe() {
         <div className="contact-item">
           <ion-icon name="mail-outline" className='contact-icon'></ion-icon>
           <h2>Email</h2>
-            <a href="mailto:gitajiva2024@gmail.com">Send me an email</a>
+            <a href="mailto:contact@yujiva.com">Send me an email</a>
         </div>
 
         {/* WhatsApp */}
