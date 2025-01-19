@@ -30,7 +30,7 @@ function ContactMe() {
             <a href="https://www.instagram.com/yu_jiva" target="_blank" rel="noopener noreferrer">
               Send me an Instagram DM
             </a>
-        </div>
+        </div>   
       </div>
     </section>
   );
