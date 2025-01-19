@@ -37,6 +37,12 @@
     .offerings-row {
       flex-direction: column; /* Stack items vertically on smaller screens */
     }
+    .offerings-container{
+      gap: 2rem;
+    }
+    .offerings-row{
+      gap: 2rem;
+    }
   }
   @media (max-width: 480px) {
     .offerings h1{
